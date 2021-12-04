@@ -15,7 +15,7 @@
 
 __Project:__ The idea of this project is to create a CRUD inside a Rest API. To develop this project I use Nodejs and SQL.
 
-Read about [CRUD](https://github.com/abantes/crud-nodejs#crud-operations-explained) at the end of this README.
+Read about [CRUD](https://github.com/abantes/crud-nodejs#crud-operations-explained-by-avelon-pang) at the end of this README.
   
 ## Features
 
