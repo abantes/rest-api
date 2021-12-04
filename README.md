@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="#features">Features</a> | <a href="#start-server">Start server</a> | <a href="#use-the-api">Use the API</a> | <a href="#">Testing the application (curl):</a> | <a href="#how-to-contribute">How to contribute</a> | <a href="#license">License</a> | <a href="#crud-operations-explained">CRUD Operations Explained</a>
+  <a href="#features">Features</a> | <a href="#start-server">Start server</a> | <a href="#use-the-api">Use the API</a> | <a href="#testing-the-application-curl">Testing the application</a> | <a href="#how-to-contribute">How to contribute</a> | <a href="#license">License</a>
 </p>
 
 <p align="center">
@@ -13,9 +13,9 @@
   <img alt="badge" src="https://img.shields.io/github/contributors/abantes/solid-api?color=191F2B&style=flat-square">
 </p>
 
-__Project:__ The idea of this project is to create a CRUD inside a Rest API.
+__Project:__ The idea of this project is to create a CRUD inside a Rest API. To develop this project I use Nodejs and SQL.
 
-Read about [CRUD](https://github.com/abantes/solid-api#the-solid-principles-by-ugonna-thelma) at the end of this README.
+Read about [CRUD](https://github.com/abantes/crud-nodejs#crud-operations-explained) at the end of this README.
   
 ## Features
 
@@ -90,7 +90,7 @@ Edit a user
 curl -d '{"username": "NEWNAME"}' -H "Content-type: application/json" -X PUT http://localhost:3333/ID
 ```
 
-Delte a user
+Delete a user
 
 ```
 curl -X DELETE http://localhost:3333/ID
