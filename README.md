@@ -22,9 +22,9 @@
 - [ ] Deploy;
 - [ ] Rfactor;
 
-## Start server
+## Testing application Locally
 
-You can use npm or yarn:
+In development I used `yarn` manager, but you can use any other. You just adapt the commands to your manager:
 
 ```console
 # Clone this repository
@@ -44,7 +44,7 @@ $ yarn dev:api
 
 ## Use the API
 
-Test the API using the script below:
+When the server is running, you can consume the API this way:
 
 ```js
 async function getContent() {
@@ -115,27 +115,6 @@ Contributions are always welcome, no matter how large or small.
 2. Create a branch with your feature: **`git checkout -b my-feature`**;
 3. Commit your changes: **`git commit -m 'feat: My new feature'`**;
 4. Push to your branch: **`git push origin my-feature`**.
-
-Your commit must keep the default:
-
-```
-git commit -m "[type]: [message]"
-```
-
-Types:
-
-* `build`: Changes that affect the build system or external dependencies.
-* `static`: Changes to the content of static files (.json data, images, etc).
-* `ci`: Changes to our CI configuration files and scripts.
-* `cd`: Changes to our CD configuration files and scripts.
-* `docs`: Documentation changes only.
-* `feat`: A new feature.
-* `fix`: An application bug fix.
-* `perf`: A code change that improves performance.
-* `refactor`: A code change that does not fix a bug or add a feature.
-* `improve`: Any code change that improves the behavior of a resource.
-* `style`: Changes that do not affect the meaning of the code (white space, formatting, semicolon, etc).
-* `test`: Adding missing tests or fixing existing tests.
 
 __After the merge of your pull request is done, you can delete your branch.__
 
