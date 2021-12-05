@@ -34,10 +34,10 @@ $ git clone https://github.com/abantes/crud-nodejs.git
 $ cd crud-nodejs
 
 # Install the dependencies
-$ npm install
+$ yarn
 
 # Run the application in development mode
-$ npm run dev:api
+$ yarn dev:api
 
 # Access http://localhost:3333
 ```
@@ -63,33 +63,20 @@ getContent()
 
 ## Testing the application (curl):
 
-Read all users:
-
 ```
+# Read all users:
 curl -X GET http://localhost:3333/
-```
 
-Read user by ID:
-
-```
+# Read user by ID:
 curl -X GET http://localhost:3333/ID
-```
 
-Create a user
-
-```
+# Create a user
 curl -d '{"name": "NAME", "username": "USERNAME"}' -H "Content-type: application/json" -X POST http://localhost:3333/
-```
 
-Edit a user
-
-```
+# Edit a user
 curl -d '{"username": "NEWNAME"}' -H "Content-type: application/json" -X PUT http://localhost:3333/ID
-```
 
-Delete a user
-
-```
+# Delete a user
 curl -X DELETE http://localhost:3333/ID
 ```
 
