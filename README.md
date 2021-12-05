@@ -92,15 +92,15 @@ The project code base is mainly located within the src folder. This folder is di
 ├── .github                    # Github configurations
 ├── src
 │   ├── database               # Project datasabe
-│   │   ├── CreateTable.js     # Datbabase conection
+│   │   ├── CreateTable.ts     # Datbabase conection
 │   │   └── database.sqlite    # Database file
 │   │
 │   ├── routes                 # Project Routes
-│   │   ├── CreateUser.js      # Create user function
-│   │   ├── DeleteUser.js      # Delete user function
-│   │   ├── EditUser.js        # Edit user function
-│   │   ├── GetAllUsers.js     # Read users function
-│   │   └── GetUser.js         # Read user function
+│   │   ├── CreateUser.ts      # Create user function
+│   │   ├── DeleteUser.ts      # Delete user function
+│   │   ├── EditUser.ts        # Edit user function
+│   │   ├── GetAllUsers.ts     # Read users function
+│   │   └── GetUser.ts         # Read user function
 │   │
 │   └── server.js              # Import server configurations
 │
