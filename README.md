@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="#features">Features</a> | <a href="#start-server">Start server</a> | <a href="#use-the-api">Use the API</a> | <a href="#testing-the-application-curl">Testing the application</a> | <a href="#how-to-contribute">How to contribute</a> | <a href="#license">License</a>
+  <a href="#features">Features</a> | <a href="#start-server">Start server</a> | <a href="#use-the-api">Use the API</a> | <a href="#testing-the-application-curl">Testing the application</a> | <a href="#project-structure">Project structure</a> | <a href="#how-to-contribute">How to contribute</a> | <a href="#license">License</a>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
   <img alt="badge" src="https://img.shields.io/github/contributors/abantes/solid-api?color=191F2B&style=flat-square">
 </p>
 
-__Project:__ The idea of this project is to create a CRUD inside a Rest API. To develop this project I use Nodejs and SQL.
+> __Project:__ The idea of this project is to create a CRUD inside a Rest API. To develop this project I use Nodejs and SQL.
 
 Read about [CRUD](https://github.com/abantes/crud-nodejs#crud-operations-explained-by-avelon-pang) at the end of this README.
   
@@ -94,6 +94,28 @@ Delete a user
 
 ```
 curl -X DELETE http://localhost:3333/ID
+```
+
+## Project structure
+
+```
+.
+├── .github                    # Github configurations
+├── src
+│   ├── database               # Project datasabe
+│   │   ├── CreateTable.js     # Datbabase conection
+│   │   └── database.sqlite    # Database file
+│   │
+│   ├── routes                 # Project Routes
+│   │   ├── CreateUser.js      # Create user function
+│   │   ├── DeleteUser.js      # Delete user function
+│   │   ├── EditUser.js        # Edit user function
+│   │   ├── GetAllUsers.js     # Read users function
+│   │   └── GetUser.js         # Read user function
+│   │
+│   └── server.js              # Import server configurations
+│
+└── package.json               # Dependency manager
 ```
 
 ## How to contribute
