@@ -82,6 +82,11 @@ curl -X DELETE http://localhost:3333/ID
 
 ## Project structure
 
+The project code base is mainly located within the src folder. This folder is divided in:
+
+* `database`: Contains database management;
+* `routes`: Contains system routing.
+
 ```
 .
 ├── .github                    # Github configurations
