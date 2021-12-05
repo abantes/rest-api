@@ -1,4 +1,4 @@
-const Database = require('sqlite-async')
+import Database from 'sqlite-async'
 
 function execute (db) {
   return db.exec(`
@@ -12,4 +12,4 @@ function execute (db) {
 
 const db = Database.open(`${__dirname}/database.sqlite`).then(execute)
 
-module.exports = db
+export { db }
