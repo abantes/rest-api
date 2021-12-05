@@ -37,7 +37,7 @@ $ cd crud-nodejs
 $ yarn
 
 # Run the application in development mode
-$ yarn dev:api
+$ yarn dev
 
 # Access http://localhost:3333
 ```
@@ -102,8 +102,10 @@ The project code base is mainly located within the src folder. This folder is di
 │   │   ├── GetAllUsers.ts     # Read users function
 │   │   └── GetUser.ts         # Read user function
 │   │
-│   └── server.js              # Import server configurations
+│   ├── app.ts                 # Import server routes
+│   └── server.ts              # Server configurations
 │
+├── tsconfig.json              # Typescript configuration
 └── package.json               # Dependency manager
 ```
 
