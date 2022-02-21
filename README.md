@@ -1,5 +1,5 @@
 <h1 align="center">
-  CRUD NodeJs
+  REST API with NodeJs
 </h1>
 
 <p align="center">
