@@ -13,7 +13,7 @@
   <img alt="badge" src="https://img.shields.io/github/contributors/abantes/solid-api?color=191F2B&style=flat-square">
 </p>
 
-> __Project:__ The idea of this project is to create a CRUD applying the theory of a REST API, Clean code. To develop this project I use Nodejs and SQL. Read about [APIs](https://test) and [CRUD](https://github.com/abantes/crud-nodejs#crud-operations-explained-by-avelon-pang) at the end of this README.
+> __Project:__ The idea of this project is to create a CRUD applying the theory of a REST API, Clean code. To develop this project I use Nodejs and SQL. Read about [APIs](https://github.com/abantes/rest-api#apis-by-mayk-brito) and [CRUD](https://github.com/abantes/crud-nodejs#crud-operations-explained-by-avelon-pang) at the end of this README.
   
 ## Features
 
@@ -126,7 +126,7 @@ You can report a bug [here](https://github.com/abantes/fylo/issues).
 
 This project is under the MIT license. See the archive [LICENSE](LICENSE.md) for more details.
 
-## APIs By [Mayk Brito](https://github.com/maykbrito)
+## APIs (By [Mayk Brito](https://github.com/maykbrito))
 
 ### API
 
