@@ -13,14 +13,14 @@
   <img alt="badge" src="https://img.shields.io/github/contributors/abantes/solid-api?color=191F2B&style=flat-square">
 </p>
 
-> __Project:__ The idea of this project is to create a CRUD applying the theory of a REST API, Clean code. To develop this project I use Nodejs and SQL. Read about [APIs](https://github.com/abantes/rest-api#apis-by-mayk-brito) and [CRUD](https://github.com/abantes/crud-nodejs#crud-operations-explained-by-avelon-pang) at the end of this README.
+> __Project:__ The idea of this project is to create a CRUD applying the theory of a REST API, Clean code. To develop this project I use Nodejs and SQL. Read about [APIs](https://github.com/abantes/rest-api/blob/main/README.md#apis-by-mayk-brito) and [CRUD](https://github.com/abantes/crud-nodejs#crud-operations-explained-by-avelon-pang) at the end of this README.
   
 ## Features
 
 - [X] Create crud operations using http verbs;
 - [X] Create database connection;
-- [ ] Deploy;
 - [ ] Rfactor;
+- [ ] Deploy;
 
 ## Testing application Locally
 
