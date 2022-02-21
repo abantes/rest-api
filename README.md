@@ -13,7 +13,7 @@
   <img alt="badge" src="https://img.shields.io/github/contributors/abantes/solid-api?color=191F2B&style=flat-square">
 </p>
 
-> __Project:__ The idea of this project is to create a CRUD applying the theory of a REST API, Clean code. To develop this project I use Nodejs and SQL. Read about [CRUD](https://github.com/abantes/crud-nodejs#crud-operations-explained-by-avelon-pang) at the end of this README.
+> __Project:__ The idea of this project is to create a CRUD applying the theory of a REST API, Clean code. To develop this project I use Nodejs and SQL. Read about [APIs](https://test) and [CRUD](https://github.com/abantes/crud-nodejs#crud-operations-explained-by-avelon-pang) at the end of this README.
   
 ## Features
 
@@ -125,6 +125,72 @@ You can report a bug [here](https://github.com/abantes/fylo/issues).
 ## License
 
 This project is under the MIT license. See the archive [LICENSE](LICENSE.md) for more details.
+
+## APIs By [Mayk Brito](https://github.com/maykbrito)
+
+### API
+
+Application Programming Interface acronym is basically a set of routines and standards established by an application, so that other applications can use the features of this application.
+
+* Responsible for establishing communication between different services.
+* Midfield between technologies.
+* Intermediary for exchanging information.
+
+### REST
+
+An acronym for Representational State Transfer.
+
+Data transfer will be done in a symbolic, figurative, representative, didactic way.
+
+Data transfer is usually using the HTTP protocol.
+
+REST delimits some obligations in these data transfers.
+
+Resources would then be: An entity or an object.
+
+_RESTful_, é a aplicação dos padrões REST.
+
+### 6 Constraints to be RESTful
+
+* _Uniform Interface_: Maintain uniformity, constancy, a pattern in the construction of the interface. Our API needs to be coherent for those who will consume it. It needs to make sense to the customer and not be confusing. So things like: the correct use of HTTP verbs; coherent endpoints (all endpoints in the plural, for example); use only one communication language (json) and not several at the same time; always send responses to customers; are examples of application of a uniform interface.
+
+* _Client-server_: Separation of client and data storage (server), in this way, we can have a portability of our system, using React for WEB and React Native for smartphone, for example.
+
+* _Stateless_: Each request that the client makes to the server must contain all the information necessary for the server to understand and respond (RESPONSE) to the request (REQUEST). Example: The user session must be sent in all requests, to know if that user is authenticated and able to use the services, and the server cannot remember that the client was authenticated in the previous request. In our courses, we default to using tokens for communications.
+
+* _Cacheable_: The responses to a request must be explicit when saying whether or not that request can be cached by the client.
+
+* _Layered System_: The client accesses an endpoint, without needing to know the complexity, what steps are being needed for the server to respond to the request, or what other layers the server will be dealing with, so that the request is answered.
+
+* _Code on demand (optional)_: It gives the possibility for our application to take code, such as javascript, for example, and run it on the client.
+
+## Good habits
+
+* Use HTTP verbs for our requests.
+* Use plural or singular when creating endpoints? no matter use a pattern!!
+* Don't leave a slash at the end of the endpoint
+* Never leave the client unanswered!
+
+### HTTP verbs
+
+* GET: Receive data from a Resource.
+* POST: Submit data or information to be processed by a Resource.
+* PUT: Update data from a Resource.
+* DELETE: Delete a Resource
+
+### STATUS DAS RESPOSTAS (alguns)
+
+* 1xx: Information
+* 2xx: Success
+  * 200: OK
+  * 201: CREATED
+  * 204: No content PUT POST DELETE
+* 3xx: Redirection
+* 4xx: Client Error
+  * 400: Bad Request
+  * 404: Not Found!
+* 5xx: Server Error
+  500: Internal Server Error
 
 ## CRUD Operations Explained (By [@Avelon Pang](https://medium.com/geekculture/crud-operations-explained-2a44096e9c88))
 
